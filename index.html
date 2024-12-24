@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--header-section  -->
+
+    <header class="flex bg-[#faf6ef] justify-around h-24 items-center">
+      <img
+        src="https://taylortaylorlondon.com/wp-content/uploads/2023/08/logo-full-1.svg"
+        alt=""
+        class="h-14 object-cover"
+      />
+      <i class="fa-solid fa-bars md:hidden" id="sidebar"></i>
+      <nav class="text-decoration-none hidden gap-10 md:flex">
+        <a href="index.html">Home</a>
+        <a href="pages/services.html">Services</a>
+        <a href="pages/product.html">Product</a>
+        <a href="pages/Galleries.html">Galleries</a>
+        <a href="pages/about.html">About</a>
+        <a href="pages/contact.html">Contact</a>
+      </nav>
+
+      <button
+        type="button"
+        class="hidden lg:inline-block text-black hover:text-white border border-[#a27e40] hover:bg-[#a27e40] hover:scale-[0.9] hover: focus:ring-4 focus:outline-none focus:ring-[#faf6ef] font- rounded-lg text-sm px-5 py-2 text-center me-2 mb-2 dark:border-black dark:text-black dark:hover:text-white dark:hover:bg-[#a27e40] dark:focus:ring-red-200"
+      >
+        Book Now
+      </button>
+
+      <!-- <button
+        class="borderpy-1 bg-[#a27e40] px-3.5 py-1.5 text-white rounded-md hover:scale-[0.9] hover:drop-shadow-xl contrast-200"
+      >
+        Book Now
+      </button> -->
+    </header>
+
+    <!-- hero-section -->
+    <video
+      src="images/Taylor Taylor London - The Liberty London Salon.mp4"
+      autoplay
+      muted
+      class="min-w-[100%] min-h-[100%] z-[-100]"
+    ></video>
+    <div
+      class="home flex flex-wrap justify-center gap-5 mt-10 sm:flex-nowrap sm:gap-5 md:flex-nowrap lg:gap-28 lg:ml-5"
+    >
+      <img
+        src="https://d3sc42dkmius1e.cloudfront.net/2020/08/taylor-taylor-insta.jpg"
+        class="h-[300px] ml-1 sm:h-[350px] md:h-[400px] lg:h-[500px]"
+      />
+      <div
+        class="nots ml-2 flex flex-col items-center flex-wrap sm:items-start md:flex-nowrap md:items-start"
+      >
+        <img
+          src="https://0975640bf5df74ed66a7.cdn6.editmysite.com/uploads/b/0975640bf5df74ed66a75c8e7ea013bf187d116cffecc91765ec4bc4d86fd5c3/Email%20Signature%20Logo_1717647931.png?width=2400&optimize=medium"
+          class="h-52 w-[80%] object-cover ml-2 sm:h-40 lg:h-60 lg:w-[80%] xl:h-[50%] xl:w-[70%] "
+        />
+        <h1 class="w-[70%] text-3xl mb-2 mt-3 sm:text-xl sm:w-[80%] sm:mb-0 sm:mt-0 md:mt-5 md:text-2xl lg:w-[80%] xl:w-[60%] xl:mt-0 xl:mb-0 "
+        >
+          The salon was launched in 2003 by Bradley Taylor
+        </h1>
+        <h2
+          class="w-[70%] mt-5 text-lg sm:text-sm sm:w-[90%] md:text-lg md:w-[90%] lg:w-[80%] lg:text-xl"
+        >
+          The owner of Taylor Taylor, Daniel has been involved in the salon's
+          growth for over <b> 25 </b> years. He's a guest artist for Wella and
+          has won awards for his work.
+        </h2>
+      </div>
+    </div>
+
+    <!-- main-section -->
+
+    <div class="main mt-10 lg:mt-20 xl:mt-0">
+      <h1 class="text-4xl text-center">Our Salons</h1>
+      <div class="intro flex flex-wrap gap-10  justify-around mt-12 md:gap-6">
+        <div class="image md:w-[30%]">
+          <img
+          src="https://taylortaylorlondon.com/wp-content/uploads/2022/05/Com_Street_New.jpg"
+          class="h-[250px] w-[250px] ml-6 blur-[1.5px] hover:blur-none md:h-[200px] md:w-[200px] lg:h-[300px] lg:w-[300px]" alt=""/>
+          <div
+            class="notes ml-8 mt-4 before:content before:h-[100%] before:w-[1.5px] before:bg-[#a27e40] before:absolute before:-left-3 relative"
+          >
+            <a href="#" class="text-[#a27e40] text-2xl">SHOREDITCH</a>
+            <h5>020 7377 2737</h5>
+            <h5  class="text-[#a27e40] "
+              >commercial@taylortaylorlondon.com</h5
+            >
+
+            <address>137 Commercial Street, London, El 6BJ</address>
+          </div>
+        </div>
+
+        <div class="image md:w-[30%] ">
+          <img
+            src="https://taylortaylorlondon.com/wp-content/uploads/2017/10/salon-box3.jpg"
+            class="h-[250px] w-[250px] ml-6 blur-[1.5px] hover:blur-none md:h-[200px] md:w-[200px] lg:h-[300px] lg:w-[300px]"
+            alt=""
+          />
+          <div
+            class="notes ml-8 mt-4 before:contact before:h-[100%] before:w-[1.5px] before:bg-[#a27e40] before:absolute before:-left-3 relative">
+            <a href="#" class="text-[#a27e40] text-2xl">PORTOBELLO</a>
+            <h5>020 8960 8569</h5>
+            <h5 class="text-[#a27e40]">portobello@taylortaylorlondon.com</h5>
+            <address>309 Portobello Road, London, W10 5TD</address>
+          </div>
+        </div>
+
+        <div class="image md:w-[30%]">
+          <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTekxHlWfwPMosm6nxMIVwObCPmzyVBM2WcMQ&s"
+          class="h-[250px] w-[250px] ml-5 blur-[1.5px] hover:blur-none md:h-[200px]
+          md:w-[200px] lg:h-[300px] lg:w-[300px] alt="" />
+          <div
+            class="notes ml-9 mt-4 before:contact before:h-[100%] before:w-[1.5px] before:bg-[#a27e40] before:absolute before:-left-3 relative"
+          >
+            <a href="#" class="text-[#a27e40] text-2xl">SOHO - LIBERTY</a>
+            <h5>020 7494 4599</h5>
+            <h5 class="text-[#a27e40] "
+              >liberty@taylortaylorlondon.com
+            </h5>
+            <address>Liberty, Regent St, London, WI1B 5AH</address>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- article-section -->
+
+    <div class="article-section flex flex-wrap justify-center lg:flex-col lg:items-center lg:mt-10">
+      <h1 class="text-4xl text-center sm:items-center mt-10 md:mt-14">
+        OUR MISSION
+      </h1>
+      <h5
+        class="mt-7 text-lg text-center w-[70%] sm:items-center md:w-full md:px-32 lg:w-[70%] lg:text-xl"
+      >
+        Our mission is to provide the highest quality service, in union with the
+        highest quality products for the well being of our guests and the
+        environment.
+      </h5>
+    </div>
+
+    <!-- follow-section -->
+
+    <div class="follow-section">
+      <h1 class="text-4xl text-center mt-10 md:mt-14 lg:mt-20">
+        Follow Us On Instagram
+      </h1>
+      <div class="flex mt-14 flex-wrap justify-center gap-5 md:gap-7">
+        <a
+          href="https://www.instagram.com/taylor_taylor_london/reel/DCSg8FpIgga/"
+          ><img
+            src="https://i8.amplience.net/i/liberty/taylor-taylor-slide-2?fmt=auto&qlt=55"
+            alt=""
+            class="h-50 w-full sm:h-40 sm:w-40 object-cover md:h-52 md:w-52 lg:w-40 lg:h-32  lg
+            mt-10 "
+          />
+        </a>
+        <a
+          href="https://www.instagram.com/taylor_taylor_london/reel/DC96RkOop7I/"
+          ><img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-FOhY8fpgEMdc8jOIuhXK2kRQPOH9BZ233A&s"
+            alt=""
+            class="h-50 w-full sm:h-40 sm:w-40 object-cover md:h-52 md:w-52 lg:w-40 lg:h-48 "
+        /></a>
+        <a
+          href="https://www.instagram.com/taylor_taylor_london/reel/DBS99tXo_q8/"
+          ><img
+            src="https://makeupbycatherinetaylor.co.uk/_webedit/cached-images/1063.jpg"
+            alt=""
+            class="h-50 w-full sm:h-40 sm:w-40 mt-1 object-cover md:h-52 md:w-52 lg:w-40 lg:h-32  "
+        /></a>
+        <a
+          href="https://www.instagram.com/taylor_taylor_london/reel/C7RB0zJtdrf/"
+          ><img
+            src="https://64.media.tumblr.com/ee86ad4141a180a2f826d4249126e5d1/tumblr_inline_o79wymPvcx1rezq60_1280.jpg"
+            alt=""
+            class="h-50 w-full sm:h-40 sm:w-40 object-cover md:h-52 md:w-52 lg:w-40 lg:h-48  "
+        /></a>
+        <a
+          href="https://www.instagram.com/taylor_taylor_london/reel/CteRc9UqqoX/"
+          ><img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJQe89FRlEqug1EuP-yTHR1IPhH5XlHljr5g&s"
+            alt=""
+            class="h-50 w-full sm:h-40 sm:w-40 object-cover md:h-52 md:w-52 lg:w-40 lg:h-32 lg:mt-10 "
+        /></a>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    
+    <footer class="border-2 border-[#a27e40] mt-20 p-5 m-5 md:px-0 md:flex md:flex-col">
+      <div class="m-10 flex flex-col justify-center text-start sm:flex-row sm:gap-5 md:text-start md:justify-around xl:justify-evenly ">
+        <div class="email">
+          <span class="border-b-2 border-[#a27e40] flex ">
+            <input
+              type="email"
+              name="Email"
+              id="input"
+              placeholder="Enter email for news"
+              required
+              class="focus:outline-0"
+            />
+            <button class="outline-0 border-0">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </span>
+          <div class="text-3xl mt-5">
+            <a href="#"
+              ><i class="fa-brands fa-instagram text-[#a27e40]"></i
+            ></a>
+            <a href="#"><i class="fa-brands fa-facebook text-[#a27e40]"></i></a>
+            <a href="#"
+              ><i class="fa-brands fa-square-twitter text-[#a27e40]"></i
+            ></a>
+            <a href="#"><i class="fa-brands fa-youtube text-[#a27e40]"></i></a>
+            <a href="#"><i class="fa-brands fa-vk text-[#a27e40]"></i></a>
+          </div>
+            </div>
+  
+        <ul class="md:text-sm lg:text-lg">
+          <h3 class="text-[#a27e40] text-xl font-bold mb-2 mt-5 md:mt-0">SALONS</h3>
+          <li>Shoreditch</li>
+          <li>Portobello</li>
+          <li>Soho—Liberty</li>
+  
+        </ul>
+  
+        <ul class="md:text-sm lg:text-lg">
+          <h3 class="text-[#a27e40] text-xl font-bold mb-2 mt-5 md:mt-0">COMPANY</h3>
+          <li>About</li>
+          <li>Media</li>
+          <li>Cutting & Styling</li>
+          <li>Brazilian Blowout</li>
+          <li>Colour Services</li>
+          
+        </ul>
+  
+        <ul class="md:text-sm lg:text-lg">
+          <h3 class="text-[#a27e40] text-xl font-bold mb-2 mt-5 md:mt-0">CONTACT</h3>
+          <li>Customer Care</li>
+          <li>Recruitment</li>
+          <li>Education</li>
+        </ul>
+      </div>
+  
+      <div class="wrapper flex md:justify-evenly lg:mt-10 ">
+        <div class="text-sm">C-2024 Taylor Taylor Inndon</div>
+       <div class="text-sm">Terms & Privacy</div>
+       <div class="text-sm">Site by  darshna</div>
+  
+      </div>
+    </footer>
+    </body>
+</html>
